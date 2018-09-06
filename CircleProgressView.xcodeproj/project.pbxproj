@@ -15,6 +15,8 @@
 		A5E1FE7A21412FBB007940E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E1FE7921412FBB007940E2 /* main.m */; };
 		A5E1FE8421412FBC007940E2 /* CircleProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E1FE8321412FBC007940E2 /* CircleProgressViewTests.m */; };
 		A5E1FE8F21412FBC007940E2 /* CircleProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E1FE8E21412FBC007940E2 /* CircleProgressViewUITests.m */; };
+		A5E1FEA021412FFB007940E2 /* UIView+CGCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E1FE9C21412FFB007940E2 /* UIView+CGCircleView.m */; };
+		A5E1FEA121412FFB007940E2 /* CGCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E1FE9D21412FFB007940E2 /* CGCircleProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		A5E1FE8A21412FBC007940E2 /* CircleProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5E1FE8E21412FBC007940E2 /* CircleProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleProgressViewUITests.m; sourceTree = "<group>"; };
 		A5E1FE9021412FBC007940E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5E1FE9C21412FFB007940E2 /* UIView+CGCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGCircleView.m"; sourceTree = "<group>"; };
+		A5E1FE9D21412FFB007940E2 /* CGCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCircleProgressView.m; sourceTree = "<group>"; };
+		A5E1FE9E21412FFB007940E2 /* CGCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCircleProgressView.h; sourceTree = "<group>"; };
+		A5E1FE9F21412FFB007940E2 /* UIView+CGCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGCircleView.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 		A5E1FE6921412FBA007940E2 /* CircleProgressView */ = {
 			isa = PBXGroup;
 			children = (
+				A5E1FE9E21412FFB007940E2 /* CGCircleProgressView.h */,
+				A5E1FE9D21412FFB007940E2 /* CGCircleProgressView.m */,
+				A5E1FE9F21412FFB007940E2 /* UIView+CGCircleView.h */,
+				A5E1FE9C21412FFB007940E2 /* UIView+CGCircleView.m */,
 				A5E1FE6A21412FBA007940E2 /* AppDelegate.h */,
 				A5E1FE6B21412FBA007940E2 /* AppDelegate.m */,
 				A5E1FE6D21412FBA007940E2 /* ViewController.h */,
@@ -265,6 +275,8 @@
 				A5E1FE6F21412FBA007940E2 /* ViewController.m in Sources */,
 				A5E1FE7A21412FBB007940E2 /* main.m in Sources */,
 				A5E1FE6C21412FBA007940E2 /* AppDelegate.m in Sources */,
+				A5E1FEA021412FFB007940E2 /* UIView+CGCircleView.m in Sources */,
+				A5E1FEA121412FFB007940E2 /* CGCircleProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
